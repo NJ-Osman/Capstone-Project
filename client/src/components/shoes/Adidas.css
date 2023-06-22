@@ -1,0 +1,18 @@
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	/* .st1{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;} */
+	.st2{fill:#FFFFFF;}
+	.st3{stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st4{
+		opacity:0.29;
+		fill:none;
+		stroke:#000000;
+		stroke-miterlimit:10;
+		stroke-dasharray:5,2;}
+	.stitching{	fill: none;
+	stroke:black;
+	stroke-miterlimit:10;
+	stroke-dasharray:5;}
+	.shoeLines{fill:none;stroke:black;stroke-width:3;}
+	.backPatch {
+		fill: black;
+	}

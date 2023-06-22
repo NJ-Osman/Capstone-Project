@@ -1,0 +1,40 @@
+.navbar {
+    background-color: lightblue;
+}
+
+header {
+    border-bottom: 2px solid darkred;
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 70%;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+li {
+    margin-left: 15px;
+}
+
+.loginLink, .signupLink {
+        text-decoration: none;
+        color: black;
+}
+

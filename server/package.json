@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Shoe Haven Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server":"nodemon index.js --ignore client",
+    "dev": "nodemon server"
+  },
+  "author": "Najib Osman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

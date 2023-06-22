@@ -1,0 +1,89 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+.formHandle {
+  border: 1.5px solid darkgrey;
+  box-shadow: 5px 5px 5px grey;
+  background-color: #ece9e9;
+  border-radius: 20px;
+  height: 65vh;
+  margin: 110px 500px;
+}
+
+.loginTitle {
+  text-align: center;
+  margin-top: 75px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 30px;
+  color: darkred;
+}
+
+.userNameForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 0px 350px;
+}
+
+.usernameLabel {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#userName {
+  background-color: #ece9e9;
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  padding-top: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 9px;
+}
+
+.passwordForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 0px 350px;
+}
+
+#Password {
+  background-color: #ece9e9;
+  border: none;
+  border-bottom: 2px solid darkgrey;
+  padding-top: 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 9px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.logInButton {
+  margin: 15px 0;
+  background-color: white;
+  padding: 15px 15px;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.logInButton:hover {
+  background-color: darkred;
+  border: 2px solid darkred;
+  color: white;
+}
