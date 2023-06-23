@@ -1,12 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
+  "type": "module",
   "description": "Shoe Haven Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "server":"nodemon index.js --ignore client",
+    "server": "nodemon index.js --ignore client",
     "dev": "nodemon server"
   },
   "author": "Najib Osman",
@@ -18,5 +19,6 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
-  }
+  },
+  "keywords": []
 }
